@@ -1,33 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "prsgfix",
   "version": "${version}",
-  "name": "",
+  "name": "Player Shadowing Fix",
   "description": "",
   "authors": [
     "Huaji_MUR233"
   ],
-  "contact": {
-    "homepage": "https://github.com/HuajiMUR233",
-    "sources": "https://github.com/HuajiMUR233/"
-  },
 
   "license": "WTFPL-3.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "me.jvav."
-    ]
-  },
   "mixins": [
-    "modid.mixins.json"
+    "player.shadowing.fix.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.12.12",
     "minecraft": "1.18.x",
-    "java": ">=17"
+    "java": ">=17",
+    "carpet": ">=1.4.57"
   }
 }
